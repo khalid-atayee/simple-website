@@ -1,0 +1,98 @@
+body
+{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+
+    font-size: 18px;
+}
+
+.layout-width
+{
+    width: 620px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+header
+{
+    background-color: rgb(40, 40, 60);
+    padding: 20px;
+}
+h1
+{
+    font-size: 36px;
+    font-weight: bolder;
+    color: white;
+
+}
+
+.section-one
+{
+    width: 100%;
+}
+h2{
+    font-size: 24px;
+    color:lightcoral;
+}
+.image-name
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image-dev
+{
+    width: 620px;
+    height: 400px;
+}
+a
+{
+    color: lightcoral;
+}
+p{
+    line-height: 1.5rem;
+}
+
+.section-two
+{
+   background-color: rgb(40, 40, 60);;
+
+   padding: 20px;
+   color: white;
+
+}
+.links
+{
+    padding-top: 20px;
+}
+
+.contact-btn
+{
+    background-color: red;
+    color: white;
+    padding: 15px 45px;
+    text-decoration: none;
+}
+.info-btn
+{
+    background-color: black;
+    color: white;
+    padding: 15px 45px;
+    text-decoration: none;
+}
+
+.contact-btn:hover
+{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+    
+}
+.info-btn:hover
+{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
